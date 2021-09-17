@@ -29,7 +29,7 @@ $(document).ready(function () {
   });
   var swiperTechnogical = new Swiper(".swiper-technogical", {
     slidesPerView: 3,
-    spaceBetween: 32,
+    spaceBetween: 75,
     loop: false,
     autoplay: false,
     navigation: {
