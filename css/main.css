@@ -773,6 +773,21 @@ body.overflow{
 .about-us-free-title{
   color:#000000; }
 
+.telepone-number{
+  font-family:"avenirNextCyr_Bold", "Arial";
+  font-weight:600;
+  font-size:1.8rem; }
+
+.info-email{
+  font-family:"avenirNextCyr_Regular", "Arial";
+  font-weight:400;
+  font-size:1.4rem;
+  color:#222527;
+  text-decoration:underline; }
+
+.info-about-us-text{
+  color:#C6000E; }
+
 .social-info{
   min-height:300px;
   border-top:1px solid #F6F7FD; }
@@ -797,6 +812,17 @@ body.overflow{
   -webkit-box-pack:justify;
   -webkit-justify-content:space-between;
   justify-content:space-between; }
+
+.info-heading{
+  margin-bottom:8px; }
+
+.info-about-us-wrapper{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex; }
+
+.info-about-us-text{
+  margin-left:8px; }
 
 .header{
   display:-webkit-box;
