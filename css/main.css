@@ -540,8 +540,15 @@ body.overflow{
 .swiper-technogical{
   width:100%;
   position:relative;
-  overflow:hidden;
-  min-height:588px; }
+  min-height:588px;
+  overflow:hidden; }
+
+.swiper-slide-technogical-anons{
+  background-image:url("../images/bg_anons.png");
+  background-repeat:no-repeat;
+  width:360px;
+  height:588px;
+  background-size:360px 588px; }
 
 .slide-technogical{
   width:330px;
@@ -557,16 +564,19 @@ body.overflow{
 
 .slider-technogical-button-next{
   position:absolute;
-  bottom:0;
   z-index:1;
+  bottom:300px;
+  right:-110px;
+  width:100px;
+  height:100px;
   display:block; }
 
 .slider-technogical-button-next::after{
     content:"";
     background-image:url("../../images/icons/arrow-toggle.svg");
     background-position:center;
-    right:-1271px;
-    top:-230px;
+    right:45px;
+    top:45px;
     position:absolute;
     width:20px;
     height:25px;
@@ -776,7 +786,8 @@ body.overflow{
 .telepone-number{
   font-family:"avenirNextCyr_Bold", "Arial";
   font-weight:600;
-  font-size:1.8rem; }
+  font-size:1.8rem;
+  color:#000000; }
 
 .info-email{
   font-family:"avenirNextCyr_Regular", "Arial";
@@ -788,8 +799,35 @@ body.overflow{
 .info-about-us-text{
   color:#C6000E; }
 
+.anons-title{
+  font-family:"avenirNextCyr_Bold", "Arial";
+  font-weight:600;
+  font-size:3.6rem;
+  color:#FFFFFF;
+  margin-bottom:32px; }
+
+.anons-wrapper{
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:flex;
+  -webkit-box-orient:vertical;
+  -webkit-box-direction:normal;
+  -webkit-flex-direction:column;
+  flex-direction:column;
+  -webkit-box-pack:center;
+  -webkit-justify-content:center;
+  justify-content:center;
+  width:280px;
+  height:440px;
+  -webkit-align-content:center;
+  align-content:center;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+  align-items:center;
+  margin:0 auto; }
+
 .social-info{
-  min-height:300px;
+  min-height:200px;
   border-top:1px solid #F6F7FD; }
 
 .social-link-wrapper{
@@ -819,10 +857,25 @@ body.overflow{
 .info-about-us-wrapper{
   display:-webkit-box;
   display:-webkit-flex;
-  display:flex; }
+  display:flex;
+  -webkit-box-align:center;
+  -webkit-align-items:center;
+  align-items:center; }
 
 .info-about-us-text{
-  margin-left:8px; }
+  margin-left:8px;
+  position:relative;
+  padding-right:20px; }
+
+.info-about-us-text::after{
+    content:"";
+    background-image:url("../images/icons/arrow-down.svg");
+    background-repeat:no-repeat;
+    width:10px;
+    height:10px;
+    right:0px;
+    top:4px;
+    position:absolute; }
 
 .header{
   display:-webkit-box;
@@ -842,7 +895,8 @@ body.overflow{
   -webkit-box-pack:justify;
   -webkit-justify-content:space-between;
   justify-content:space-between;
-  margin-bottom:10px; }
+  border-bottom:1px solid #000000;
+  padding-bottom:30px; }
 
 .nav{
   -webkit-box-align:center;
@@ -1081,6 +1135,9 @@ body.overflow{
 
 .education-item div{
   cursor:pointer; }
+
+.education-title{
+  margin-bottom:48px; }
 
 .main-section{
   min-height:480px;
